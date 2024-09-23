@@ -1,8 +1,8 @@
 const player1 = prompt('digite o nome do primeiro jogador: ')
 const power1 =parseInt(prompt('digite o poder de ataque do primeiro jogador: '))
 const player2 = prompt('digite o nome do segundo jogador: ')
-let = defensepower2 = parseInt(prompt('digite o poder de defesa do segundo jogador: '))
-let = live2 = parseInt(prompt('digite a quantidade de pontos de vida do jogador: '))
+let defensepower2 = parseInt(prompt('digite o poder de defesa do segundo jogador: '))
+let live2 = parseInt(prompt('digite a quantidade de pontos de vida do jogador: '))
 const shield2 = confirm('o jogador possui algun escudo?')
 
 if (power1 > defensepower2 && shield2 === false ){
